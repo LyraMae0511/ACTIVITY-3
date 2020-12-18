@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+<title> fibonacci sequence </title>
+  <style>
+body {
+  background-image: url(https://wallpaperaccess.com/full/823503.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+    .injected-text
+  {
+    margin-bottom; -25px;
+  }
+  </style>
+</head>
+<body style= "text-align:center; color:ivory; font-size:25px;" >
+<h2 style="text-align:center; face:Courier; color:yellow">Generating Fibonacci Series </h2>
+<br>
+<script>
+var number= prompt("Enter Your Range:", " "); 
+var first=0;
+var second=1;
+
+document.write("<br/>" ," The Fibonacci Sequence are . . . ", "<br/­>");
+ document.write("",first,"<br/> ");
+document.write("", second ,"<br/> ");
+
+var j, third;
+for(j=2; j<number; j++)
+{
+third=first+second;
+document.write("", third,"<br/> ");
+first=second;
+second=third;
+}
+</script>
+</body>
+</html>
